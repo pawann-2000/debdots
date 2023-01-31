@@ -1,16 +1,6 @@
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-end
-
 function fish_greeting
     echo
 end
-
-# Flutter Path
-export PATH="$PATH:/home/penguin/Projects/flutter_env/bin"
-
-# Android Studio Path
-export PATH="$PATH:/home/penguin/Projects/android-studio/bin"
 
 # oh-my-posh
 oh-my-posh init fish --config ~/.poshthemes/the-unnamed.omp.json | source
