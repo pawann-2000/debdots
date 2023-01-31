@@ -27,6 +27,6 @@ function upd --wraps upd --description 'alias upd = sudo apt update'
   sudo apt update
 end
 
-function dupc --wraps upd --description 'alias dupc = sudo apt update && sudo apt dist-upgrade && sudo apt autoremove'
+function dupc --wraps dupc --description 'alias dupc = sudo apt update && sudo apt dist-upgrade && sudo apt autoremove'
   sudo apt update && sudo apt dist-upgrade && sudo apt autoremove
 end
